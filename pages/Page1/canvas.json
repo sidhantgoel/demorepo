@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -34,15 +34,15 @@
               "searchTags": [
                 "upload"
               ],
-              "topRow": 31,
-              "bottomRow": 35,
+              "topRow": 62,
+              "bottomRow": 66,
               "parentRowSpace": 10,
               "allowedFileTypes": [],
               "type": "FILE_PICKER_WIDGET_V2",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
-              "leftColumn": 16,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -55,7 +55,7 @@
               "key": "nv34ym3wyn",
               "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 32,
+              "rightColumn": 34,
               "isDefaultClickDisabled": true,
               "widgetId": "pap9ui2i00",
               "isVisible": true,
@@ -70,6 +70,45 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "files": [],
               "maxNumFiles": 1
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 22,
+              "bottomRow": 29,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 29.328125,
+              "leftColumn": 13,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "obzmbompgn",
+              "isDeprecated": false,
+              "rightColumn": 29,
+              "widgetId": "56c4xdnlby",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconColor": "white"
             }
           ]
         },
